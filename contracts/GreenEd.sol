@@ -3,7 +3,8 @@ pragma solidity ^0.8.0;
 
 
 contract Greened{
-
+    
+    address public planter
     uint public  plant;
     address payable heroes;
     uint pool;
@@ -28,6 +29,7 @@ contract Greened{
       
       emit Planted(msg.sender, msg.value);
     }
+    
 
 
 
