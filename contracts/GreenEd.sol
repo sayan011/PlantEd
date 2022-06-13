@@ -3,8 +3,10 @@ pragma solidity ^0.8.0;
 
 
 contract Greened{
+
     
-    address public planter
+    
+    address public planter;
     uint public  plant;
     address payable heroes;
     uint pool;
